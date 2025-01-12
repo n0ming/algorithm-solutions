@@ -1,4 +1,4 @@
-// 오름차순으로 진행한 뒤에 시간을 차례대로 합하면 그것이 총 걸리는 시간이다.
+// 오름차순으로 진행한 뒤에 시간을 차례대로 합하면 그것이 총 걸리는 시간이다
 #include <iostream>
 #include <vector>
 #include <algorithm>
