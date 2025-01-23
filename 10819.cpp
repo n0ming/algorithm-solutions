@@ -23,7 +23,7 @@ void solve(){
                 
                 solve();
                 
-                v.pop_back();
+                v.pop_back(); //백트래킹
                 visit[i]=0;
             }
         }
