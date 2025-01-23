@@ -14,7 +14,7 @@ void solve(int i, int count, int start){
         if(arr[i][start] !=0){
             result_temp += arr[i][start];
             result = min(result_temp, result);
-            result_temp -= arr[i][start];  
+            result_temp -= arr[i][start];  //구지 복구 안해도 그냥 값 복사만 해서 이 코드줄 없애보기. 거기에 익숙해보기
         }
         return;
     }
