@@ -22,7 +22,7 @@ void solve(int a, int b, int c) {
 	solve(a + min(b, abc[0] - a), b - min(b, abc[0] - a), c); // B -> A
 	solve(a, b - min(b, abc[2] - c), c + min(b, abc[2] - c)); // B -> C
 	solve(a + min(c, abc[0] - a), b, c - min(c, abc[0] - a)); // C -> A
-	solve(a, b + min(c, abc[1] - b), c - min(c, abc[1] - b)); // C -> B
+	solve(a, b + min(c, abc[1] - b), c - min(c, abc[1] - b)); // C -> B .
 }
 int main() {
 	for (int i = 0; i < 3; i++) {
