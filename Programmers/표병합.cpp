@@ -6,7 +6,6 @@
 #include <tuple> 
 using namespace std;
 
-//vector<vector<Node>> node(51, vector<Node>(51));
 string value[51][51];
 pair<int,int> parent[51][51];
 vector<pair<int,int>> group[51][51];
