@@ -1,3 +1,4 @@
+//"가장 작은 숫자들을 순서대로 배열에 담아" answer 부분 정렬 시키기 말것. 문제에 대한 이해 부족 
 #include <string>
 #include <vector>
 #include <cmath>
